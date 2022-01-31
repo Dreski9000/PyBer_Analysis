@@ -26,10 +26,12 @@ Urban cities accounted for the majority of rides, drivers, and revenue from fare
 ### Summary
 
 In order to make useful recommendations, it may be necessary to expand our data set and perform more analysis with the following additional data:
+
     1. Distance metrics per ride, as this may be a confounding variable that determines the total cost of the ride, and may have significant correlation with city types.
     2. Driver ID logging - it is fair to assume that Driver A may have to travel from city X to city Y, which may be different city types, this could be another confounding variable in our analysis since we are assuming the drivers to be distinct in their respective areas.
     3. Any type of demand forecasting metrics - without understanding rider demand in respective location, it is difficult to make actionable business recommendations.
 
 Nevertheless, here are some potential recommendations with the data at hand:
-    1. Encouraging more drivers (via promotions etc.) to drive in Rural areas would likely lead to a decrease in average price per ride, and potentially encourage more people to try ridesharing.
-    2. Increasing average per ride fare / revenue in Urban cities would lead to the largest overall impact in revenue since this sector accounts for the most rides and drivers and appears to naturally have more demand.
+   
+   1. Encouraging more drivers (via promotions etc.) to drive in Rural areas would likely lead to a decrease in average price per ride, and potentially encourage more people to try ridesharing.
+   2.  Increasing average per ride fare / revenue in Urban cities would lead to the largest overall impact in revenue since this sector accounts for the most rides and drivers and appears to naturally have more demand.
